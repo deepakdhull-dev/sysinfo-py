@@ -1,14 +1,14 @@
 # sysinfo-py
 A minimal Linux system info tool that reads directly from /proc — no external dependencies, no pip, just Python 3 and the kernel.
 
-What it shows:
--Kernel version
--CPU model, core count, thread count
--RAM and swap — total, used, available, usage %
+## What it shows:
+- Kernel version
+- CPU model, core count, thread count
+- RAM and swap — total, used, available, usage %
 
 ## Requirements
-Python 3.x
-Linux (reads /proc/meminfo, /proc/cpuinfo, /proc/version)
+- Python 3.x
+- Linux (reads /proc/meminfo, /proc/cpuinfo, /proc/version)
 
 ## Run
 ```bash 
